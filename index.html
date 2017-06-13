@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Website Ícone" href="favicon.ico" />
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Orama</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- MODAL SIMPLES -->
+        <a href="#" id="modal-close">
+            <div class="modal" id="openModal">
+                <div class="modal-container">
+                    <img src="imgs/logo-orama.jpg" alt="Logo Órama" class="header-logo">
+                </div>
+            </div>
+        </a>
+        <!-- fim modal -->
+
+        <a href="#openModal">
+            <img src="imgs/logo-orama.jpg" alt="Logo Órama" class="header-logo">
+        </a>
+
+        <nav class="navegacao">
+            <ul>
+                <a href="#">
+                    <li class="borda-esquerda">MENU 1</li>
+                </a>
+                <a href="#">
+                    <li class="borda-esquerda">MENU 2</li>
+                </a>
+                <a href="#">
+                    <li class="borda-esquerda">MENU 3</li>
+                </a>
+                <a href="#">
+                    <li class="borda-esquerda borda-direita">MENU 4</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="linha linha-um">
+            <section class="main-container-esquerda">
+
+                <div class="container">
+                    <div class="main-card">
+                        <img src="imgs/chickens-01-580x580.jpeg" alt="Foto galinhas" class="main-card-img">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="main-card">
+                        <img src="imgs/monster-pattern-bold-03-580x435.jpeg" alt="Foto galinhas" class="main-card-img">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="main-card">
+                        <img src="imgs/pink-butt-580x662.jpeg" alt="Foto galinhas" class="main-card-img">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="main-card main-card-noticia tamanho-card-grande">
+                        <img src="imgs/smartphone-02-580x580.jpeg" alt="Foto galinhas" class="main-card-img">
+                        <h1>Neque porro quisquian est qui dolorem ipsum</h1>
+                        <h5>Data 2012</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tellus vitae justo bibendum facilisis a sit amet velit. Integer
+                            et dignissim odio. Sed efficitur libero vel augue tempor congue. Phasellus blandit cursus finibus.
+                        </p>
+                        <a href="#">Leia mais.</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="linha linha-dois">
+            <section class="main-container-esquerda">
+
+                <div class="container">
+                    <div class="main-card main-card-login tamanho-card-medio">
+                        <h3>Faça seu login</h3>
+                        <p>
+                            É muito simples! O tempo médio de preenchimento é de apenas 6 minutos.
+                        </p>
+                        <h6>Qualquer blá blá blá pra fazer volume</h6>
+                        <input type="text" placeholder="Nome" class="input" id="nome">
+                        <label for="alerta" class="label-alerta" id="alertaNome">* Campo obrigatório</label>
+
+                        <input type="text" placeholder="Email" class="input" id="email">
+                        <label for="alerta" class="label-alerta" id="alertaEmail">* Campo obrigatório</label>
+
+                        <div class="div-botao">
+                            <button class="botao" id="btnSignUp" onclick="validarCamposNomeEEmail(nome, email)">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="main-card main-card-text tamanho-card-medio">
+                        <p>
+                            Vestibulum id nibh vitae lectus dignissim feugiat vel eget nulla. Sed mi purus condimentum id viverra ac, ornare in dit.
+                            Sed laoreet, velit vitas arnare gravida, erat eros vulputate sem, in consectur arcu quam aget
+                            runc, Aliquam facilisis modestie.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="main-card tamanho-card-pequeno">
+                        <img src="imgs/sailing-boat-580x580.jpeg" alt="Foto galinhas" class="main-card-img">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p>
+            Suspendisse arcu leo, ornare ac ultricies vel, convallis sed dolor. Curabitur sed ante sit amet tortor tempor feugiat. Fusce
+            sollicitudin mi asit amet risus tristique posuere eleifend id erat. Morbi in pretium eros. Pellentesque fermentum,
+            odio vitae venenatis fermentum, auge leo commodo arcu, cursus egestas nisi augue quis mauris
+        </p>
+    </footer>
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
